@@ -626,9 +626,9 @@ COMMENT: The comment left by the reporter, hopefully to explain why they are rep
 @description: When a user reports a post this email is sent out to moderators and admins of that board.
 */
 
-'subject' => 'Wiadomość zaraportowana : {TOPICSUBJECT} przez {POSTERNAME}',
+'subject' => 'Wiadomość zaraportowana: {TOPICSUBJECT} przez {POSTERNAME}',
 
-'body' => 'Następująca wiadomość, "{TOPICSUBJECT}" napisana przez {POSTERNAME} została zaraportowana przez {REPORTERNAME} na forum, które moderujesz:
+'body' => 'Następująca wiadomość: "{TOPICSUBJECT}" napisana przez {POSTERNAME} została zaraportowana przez {REPORTERNAME} na forum, które moderujesz:
 
 Temat: {TOPICLINK}
 Centrum moderacji: {REPORTLINK}
