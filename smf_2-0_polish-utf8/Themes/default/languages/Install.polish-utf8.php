@@ -87,7 +87,7 @@ $txt['error_message_try_again'] = 'aby wykonać ten krok ponownie.';
 $txt['error_message_bad_try_again'] = 'aby spróbować instalacji mimo wszystko. Miej jednak na uwadze, że jest to <em>mocno</em> odradzane.';
 
 $txt['install_settings'] = 'Podstawowe ustawienia';
-$txt['install_settings_info'] = 'Kilka prostych rzeczy, które musisz ustawić ;).';
+$txt['install_settings_info'] = 'Ta strona wymaga od ciebie podania kilku kluczowych ustawień dla twojego forum. SMF automatycznie wykryło kluczowe ustawienia dla ciebie.';
 $txt['install_settings_name'] = 'Nazwa forum';
 $txt['install_settings_name_info'] = 'To jest nazwa twojego forum, np. &quot;Forum testowe&quot;.';
 $txt['install_settings_name_default'] = 'Moje forum';
@@ -98,7 +98,7 @@ $txt['install_settings_compress_title'] = 'Pakuj dane aby zmniejszyć transfer';
 // In this string, you can translate the word "PASS" to change what it says when the test passes.
 $txt['install_settings_compress_info'] = 'Funkcja ta nie działa na niektórych serwerach, zmniejszy natomiast zarówno transfer danych na forum jak i rozmiar bazy danych.<br />Kliknij <a href="install.php?obgz=1&amp;pass_string=OK" onclick="return reqWin(this.href, 200, 60);">tutaj</a> aby ją przetestować (powinien pokazać się napis "OK").';
 $txt['install_settings_dbsession'] = 'Sesje w bazie danych';
-$txt['install_settings_dbsession_title'] = 'Użyj bazy danych zamiast plików do przechowania informacji o sesjach.';
+$txt['install_settings_dbsession_title'] = 'Użyj bazy danych zamiast plików do przechowania informacji o sesjach';
 $txt['install_settings_dbsession_info1'] = 'Najczęściej warto włączyć tę funkcję, ponieważ dzięki niej dane o sesjach są bardziej godne zaufania.';
 $txt['install_settings_dbsession_info2'] = 'Nie wygląda na to, że ta funkcja zadziała na Twoim serwerze ale możesz spróbować.';
 $txt['install_settings_utf8'] = 'Kodowanie UTF-8';
