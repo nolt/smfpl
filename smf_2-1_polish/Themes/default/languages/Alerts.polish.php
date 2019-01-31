@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 Beta 3; Alerts
+// Version: 2.1 RC1; Alerts
 
 // Load Alerts strings
 $txt['topic_na'] = '(prywatny wątek)';
@@ -19,7 +19,7 @@ $txt['alert_topic_split'] = 'Wątek {topic_msg} został podzielony';
 $txt['alert_topic_merge'] = 'Jeden lub więcej wątków zostało scalonych jako {topic_msg}';
 $txt['alert_topic_sticky'] = 'Wątek {topic_msg} został przyklejony';
 $txt['alert_board_topic'] = '{member_link} zaczął nowy wątek {topic_msg} w {board_msg}';
-$txt['alert_unapproved_attachment'] = '{member_link} has posted a new unapproved attachment {topic_msg} in {board_msg}';
+$txt['alert_unapproved_attachment'] = '{member_link} dodał nowy niezatwierdzony załącznik {topic_msg} w {board_msg}';
 $txt['alert_unapproved_topic'] = '{member_link} rozpoczął nowy niezatwierdzony wątek {topic_msg} w {board_msg}';
 $txt['alert_unapproved_post'] = '{member_link} dodał niezatwierdzony wątek {topic_msg} w {board_msg}';
 $txt['alert_unapproved_reply'] = '{member_link} odpowiedział na Twój niezatwierdzony wątek {topic_msg} w {board_msg}';

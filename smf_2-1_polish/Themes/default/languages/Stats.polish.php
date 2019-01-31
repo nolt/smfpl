@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 Beta 3; Stats
+// Version: 2.1 RC1; Stats
 
 global $context;
 
@@ -31,7 +31,7 @@ $txt['average_topics'] = 'Średnio wątków na dzień';
 $txt['average_online'] = 'Średnio online na dzień';
 $txt['users_online'] = 'Użytkownicy online';
 $txt['gender_stats'] = 'Statystyki płci';
-$txt['users_online_today'] = 'Online dzisiaj';
+$txt['users_online_today'] = 'Dziś online';
 $txt['num_hits'] = 'Wszystkich wyświetleń strony';
 $txt['average_hits'] = 'Średnio wyświetleń na dzień';
 

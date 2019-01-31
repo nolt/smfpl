@@ -1,8 +1,8 @@
 <?php
-// Version: 2.1 Beta 3; Search
+// Version: 2.1 RC1; Search
 
 $txt['set_parameters'] = 'Ustaw parametry wyszukiwania';
-$txt['choose_board'] = 'Wybierz dział do przeszukania, lub przeszukaj wszystkie';
+$txt['choose_board'] = 'Wybierz dział do przeszukania lub przeszukaj wszystkie';
 $txt['all_words'] = 'Szukaj wszystkich słów';
 $txt['any_words'] = 'Szukaj jakiegokolwiek słowa';
 $txt['by_user'] = 'Wysłane przez';
@@ -53,7 +53,7 @@ $txt['search_method_kilobytes'] = 'KB';
 $txt['search_method_fulltext_index'] = 'Indeks pełnotekstowy';
 $txt['search_method_no_index_exists'] = 'obecnie nie istnieje';
 $txt['search_method_fulltext_create'] = 'utwórz indeks pełnotekstowy';
-$txt['search_method_fulltext_cannot_create'] = 'nie można utworzyć, ponieważ długość wiadomości przekracza 64 535 znaków lub tabela nie jest typu MyISAM';
+$txt['search_method_fulltext_cannot_create'] = 'nie można utworzyć, ponieważ wyszukiwanie pełnego tekstu nie jest obsługiwane przez Twój serwer lub wersję MySQL';
 $txt['search_method_index_already_exists'] = 'już stworzone';
 $txt['search_method_fulltext_remove'] = 'usuń indeks pełnotekstowy';
 $txt['search_method_index_partial'] = 'częściowo utworzony';
@@ -100,15 +100,15 @@ $txt['error_string_too_long'] = 'Wyszukiwana fraza musi być krótsza niż %1$d 
 
 $txt['search_adjust_query'] = 'Dostosuj parametry wyszukiwania';
 $txt['search_warning_ignored_word'] = 'Następujące wyrażenie zostało zignorowane podczas wyszukiwania, ponieważ jest zbyt krótkie';
-$txt['search_warning_ignored_words'] = 'Poniższe terminy zostały zignorowane podczas wyszukiwania ponieważ są za krótkie';
+$txt['search_warning_ignored_words'] = 'Następujące wyrażenia zostały zignorowane podczas wyszukiwania, ponieważ są zbyt krótkie';
 $txt['search_adjust_submit'] = 'Ponów wyszukiwanie';
 $txt['search_did_you_mean'] = 'Może chodziło Ci o';
 
 $txt['search_example'] = '<em>np.</em> Orwell "Folwark Zwierzęcy" -film';
 
 $txt['search_engines_description'] = 'W tej części możesz zdecydować, w jakim stopniu życzysz sobie śledzić silniki wyszukiwarek gdy indeksują twoje forum.';
-$txt['spider_mode'] = 'Poziom śledzenia wyszukiwarek <div class="smalltext">Gdy poziom śledzenia jest wysoki, obciążenie serwera wzrasta.</div>';
-$txt['spider_mode_note'] = 'Pamiętaj, im śledzenie robotów działa tylko wtedy gdy poziom śledzenia jest ustawiony jako "wysoki" lub "bardzo wysoki". Szczegóły każdego robota śledzone są tylko wtedy gdy poziom jest ustawiony jako "bardzo wysoki".';
+$txt['spider_mode'] = 'Poziom śledzenia wyszukiwarek';
+$txt['spider_mode_note'] = 'Pamiętaj, że śledzenie robotów działa tylko wtedy gdy poziom śledzenia jest ustawiony jako "moderowany" lub "agresywny". Szczegóły każdego robota śledzone są tylko wtedy, gdy poziom jest ustawiony jako "agresywny".';
 $txt['spider_mode_off'] = 'Wyłączone.';
 $txt['spider_mode_standard'] = 'Standardowe - minimalne logowanie aktywności robotów.';
 $txt['spider_mode_high'] = 'Wysokie - Pokazuje bardziej zaawansowane statystyki.';
@@ -130,9 +130,9 @@ $txt['spider_last_seen'] = 'Ostatnio widziany';
 $txt['spider_last_never'] = 'Nigdy';
 $txt['spider_agent'] = 'User Agent robota';
 $txt['spider_ip_info'] = 'Adresy IP';
-$txt['spiders_add'] = 'Dodaj robota';
+$txt['spiders_add'] = 'Dodaj nowego robota';
 $txt['spiders_edit'] = 'Edytuj robota';
-$txt['spiders_remove_selected'] = 'Usuń zaznaczone roboty';
+$txt['spiders_remove_selected'] = 'Usuń zaznaczone';
 $txt['spider_remove_selected_confirm'] = 'Czy jesteś pewien, że chcesz usunąć tego robota?-n-Wszystkie powiązane z nim statystyki zostaną skasowane!';
 $txt['spiders_no_entries'] = 'Brak skonfigurowanych robotów.';
 

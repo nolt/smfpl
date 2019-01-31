@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 Beta 3; Manual
+// Version: 2.1 RC1; Manual
 
 /* Everything in this file is for the Simple Machines help manual
    If you are looking at translating the manual into another language
@@ -8,7 +8,7 @@ $txt['manual_smf_user_help'] = 'Pomoc użytkownika SMF';
 
 $txt['manual_welcome'] = 'Witaj na %s, forum działające na silniku Simple Machines&reg; Forum (SMF)!';
 $txt['manual_introduction'] = 'SMF jest wyjątkowo elastycznym oprogramowaniem, które daje administratorom możliwość dostosowania forum dyskusyjnego dokładnie tak jak tego chcą dzięki olbrzymiemu zestawowi wbudowanych funkcji, dodatkowych stylów oraz modyfikacji. Pozwala to nadać każdemu forum SMF zupełnie inny klimat oraz funkcjonalność. Istnieje jednak wiele funkcji, które są wspólne dla wszystkich for SMF. Pomoc oraz opis dla tych funkcji SMF znajdziesz klikając w znak zapytania, który znajduje się obok nich lub w sekcjach dostępnych na poszczególnych stronach tej pomocy. Niektóre z linków umieszczonych w tej pomocy przekieruje Cię do pełnej dokumentacji znajdującej się na oficjalnej stronie Simple Machines. ';
-$txt['manual_docs_and_credits'] = 'Aby uzyskać więcej informacji jak używać SMF odwiedź <a href="%1$s" target="_blank" class="new_win">Simple Machines Documentation Wiki</a>, a także zajrzyj na stronę <a href="%2$s">credits</a> by dowiedzieć się kto brał udział w tworzeniu SMF.';
+$txt['manual_docs_and_credits'] = 'Aby uzyskać więcej informacji jak używać SMF odwiedź <a href="%1$s" target="_blank" rel="noopener">Simple Machines Documentation Wiki</a>, a także zajrzyj na stronę <a href="%2$s">credits</a> by dowiedzieć się kto brał udział w tworzeniu SMF.';
 
 $txt['manual_section_registering_title'] = 'Rejestracja';
 $txt['manual_section_logging_in_title'] = 'Logowanie';

@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 Beta 3; PersonalMessage
+// Version: 2.1 RC1; PersonalMessage
 
 global $context;
 
@@ -112,7 +112,7 @@ $txt['pm_report_pm_hidden'] = '%1$d ukrytych odbiorców';
 $txt['pm_report_pm_unedited_below'] = 'Poniżej znajduje się oryginalna zawartość zgłaszanej wiadomości:';
 $txt['pm_report_pm_sent'] = 'Wyślij:';
 
-$txt['pm_report_done'] = 'Dziękujemy za zgłoszenie, w najbliższym czasie spodziewaj się odpowiedzi od administracji.';
+$txt['pm_report_done'] = 'Dziękujemy za zgłoszenie. W najbliższym czasie spodziewaj się odpowiedzi od administracji.';
 $txt['pm_report_return'] = 'Wróć do skrzynki odbiorczej';
 
 $txt['pm_search_title'] = 'Szukaj w Prywatnych Wiadomościach';

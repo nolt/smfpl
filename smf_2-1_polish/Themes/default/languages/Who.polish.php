@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 Beta 3; Who
+// Version: 2.1 RC1; Who
 
 global $scripturl, $context;
 
@@ -11,8 +11,7 @@ $txt['who_unknown'] = '<em>Nieznana czynność</em>';
 $txt['who_user'] = 'Użytkownik';
 $txt['who_time'] = 'Czas';
 $txt['who_action'] = 'Czynność';
-$txt['who_show1'] = '';
-$txt['who_show'] = 'Show ';
+$txt['who_show'] = 'Pokaż';
 $txt['who_show_members_only'] = 'Tylko użytkownicy';
 $txt['who_show_guests_only'] = 'Tylko goście';
 $txt['who_show_spiders_only'] = 'Tylko roboty';
@@ -112,8 +111,7 @@ $txt['whoallow_repairboards'] = 'Naprawia tabele bazy danych.';
 $txt['whoallow_search'] = '<a href="' . $scripturl . '?action=search">Przeszukuje</a> forum.';
 $txt['whoallow_search2'] = 'Przegląda wyniki wyszukiwania.';
 $txt['whoallow_stats'] = 'Przegląda <a href="' . $scripturl . '?action=stats">statystyki forum</a>.';
-$txt['whoallow_viewErrorLog'] = '';
-$txt['whoallow_viewerrorlog'] = 'Viewing the error log.';
+$txt['whoallow_viewerrorlog'] = 'Przegląda log błędu.';
 $txt['whoallow_viewmembers'] = 'Przegląda listę użytkowników.';
 
 $txt['who_topic'] = 'Przegląda wątek <a href="' . $scripturl . '?topic=%1$d.0">%2$s</a>.';
@@ -130,7 +128,6 @@ $txt['credits'] = 'Podziękowania';
 $txt['credits_intro'] = 'Zespół Simple Machines chce podziękować wszystkim którzy pomogli stworzyć SMF 2.1 w takiej formie w jakiej aktualnie się znajduje; kształtować i kierować naszym projektem, wszystkim ważniejszym oraz mniej ważnym. Nie byłoby to możliwe bez was. Wliczając w to naszych użytkowników, a w szczególności grupę Charter Members – dziękujemy za instalowanie oraz używanie naszego oprogramowania, dostarczanie wartościowego wsparcia, raportowanie błędów i opinii.';
 $txt['credits_team'] = 'Ekipa';
 $txt['credits_special'] = 'Specjalne podziękowania';
-$txt['credits_and'] = '';
 $txt['credits_list'] = '%1$s.';
 $txt['credits_anyone'] = 'Oraz dla każdego kogo pominęliśmy - Dziękujemy!';
 $txt['credits_copyright'] = 'Prawa autorskie';
@@ -156,7 +153,7 @@ $txt['credits_groups_translation'] = 'Tłumaczenie Polskie';
 $txt['credits_groups_translators'] = 'Tłumacze językowi';
 $txt['credits_translators_message'] = 'Dziękujemy za wasze wysiłki, które umożliwiają ludziom na całym świecie używanie SMF.';
 $txt['credits_groups_consultants'] = 'Programiści konsultujący';
-$txt['credits_code_contributors'] = 'everyone who <a href="https://github.com/SimpleMachines/SMF2.1/graphs/contributors">contributed on GitHub</a>';
+$txt['credits_code_contributors'] = 'każdy kto <a href="https://github.com/SimpleMachines/SMF2.1/graphs/contributors">pomagał na GitHub</a>';
 $txt['credits_groups_beta'] = 'Beta testerzy';
 $txt['credits_beta_message'] = 'Ci ukryci, którzy bez wytchnienia wyszukują błędy, dostarczają wsparcie oraz doprowadzają deweloperów do szaleństwa.';
 $txt['credits_groups_founder'] = 'Główny fundator SMF';

@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 Beta 3; Login
+// Version: 2.1 RC1; Login
 
 global $context;
 
@@ -111,7 +111,7 @@ $txt['admin_register_done'] = 'Użytkownik %1$s został zarejestrowany!';
 $txt['coppa_title'] = 'Forum ograniczone wiekowo';
 $txt['coppa_after_registration'] = 'Dziękujemy za rejestrację na forum ' . $context['forum_name_html_safe'] . '.<br><br>Ponieważ nie masz jeszcze {MINIMUM_AGE} lat, prawnym wymogiem jest otrzymanie zgody twojego rodzica bądź opiekuna zanim będziesz mógł użyć swojego konta. Aby ją zdobyć proszę wydrukować poniższy formularz:';
 $txt['coppa_form_link_popup'] = 'Pokaż formularz w nowym oknie';
-$txt['coppa_form_link_download'] = 'Ściągnij formularz jako plik tekstowy';
+$txt['coppa_form_link_download'] = 'Pobierz formularz jako plik tekstowy';
 $txt['coppa_send_to_one_option'] = 'Potem poproś swojego rodzica bądź opiekuna aby wysłał wypełniony formularz na adres:';
 $txt['coppa_send_to_two_options'] = 'Potem poproś swojego rodzica bądź opiekuna aby wysłał wypełniony formularz:';
 $txt['coppa_send_by_post'] = 'Wyślij na następujący adres:';

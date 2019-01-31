@@ -1,5 +1,5 @@
 <?php
-// Version: 2.1 Beta 3; Drafts
+// Version: 2.1 RC1; Drafts
 
 // profile
 $txt['drafts_show'] = 'Pokaż szkice';
@@ -11,7 +11,6 @@ $txt['draft_save'] = 'Zapisz szkic';
 $txt['draft_save_note'] = 'Ta opcja zapisze tekst wysyłanej wiadomości, ale pominie załączniki, ankiety oraz informacje o wydarzeniach.';
 $txt['draft_none'] = 'Nie masz żadnych szkiców.';
 $txt['draft_edit'] = 'Edytuj szkic';
-$txt['draft_load'] = '';
 $txt['draft_hide'] = 'Ukryj szkice';
 $txt['draft_delete'] = 'Skasuj szkic';
 $txt['draft_saved_on'] = 'Ostatni szkic zapisany';
