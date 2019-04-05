@@ -2,7 +2,7 @@
 // Version: 2.0; ManageScheduledTasks
 
 // Important! Before editing these language files please read the text at the top of index.english.php.
-$txt['scheduled_tasks_title'] = 'Zaplanowane Zadania';
+$txt['scheduled_tasks_title'] = 'Zaplanowane zadania';
 $txt['scheduled_tasks_header'] = 'Wszystkie zaplanowane zadania';
 $txt['scheduled_tasks_name'] = 'Nazwa zadania';
 $txt['scheduled_tasks_next_time'] = 'Czas następnego uruchomienia';
@@ -14,20 +14,20 @@ $txt['scheduled_tasks_time_offset'] = '<strong>Notatka:</strong> Wszystkie czasy
 $txt['scheduled_tasks_were_run'] = 'Wszystkie wybrane zadania zostały uzupełnione';
 
 $txt['scheduled_tasks_na'] = 'N/A';
-$txt['scheduled_task_approval_notification'] = 'Zatwierdzone Powiadomienia';
+$txt['scheduled_task_approval_notification'] = 'Zatwierdzone powiadomienia';
 $txt['scheduled_task_desc_approval_notification'] = 'Wyślij e-maile z zestawieniem wiadomości oczekujących zatwierdzenia do wszystkich moderatorów.';
 $txt['scheduled_task_auto_optimize'] = 'Optymalizuj bazę danych';
 $txt['scheduled_task_desc_auto_optimize'] = 'Optymalizuj bazę danych aby rozwiązać problemy z fragmentacją.';
 $txt['scheduled_task_daily_maintenance'] = 'Codzienna konserwacja';
 $txt['scheduled_task_desc_daily_maintenance'] = 'Uruchom niezbędną codzienną konserwację forum - nie powinno być wyłączone.';
-$txt['scheduled_task_daily_digest'] = 'Podsumowanie Codziennych Powiadomień';
-$txt['scheduled_task_desc_daily_digest'] = 'Wyślij E-maile z dziennym zestawieniem powiadomień dla subskrybentów.';
-$txt['scheduled_task_weekly_digest'] = 'Podsumowanie Cotygodniowych Powiadomień';
-$txt['scheduled_task_desc_weekly_digest'] = 'Wyślij E-mail z tygodniowym zestawieniem powiadomień dla subskrybentów.';
+$txt['scheduled_task_daily_digest'] = 'Podsumowanie codziennych powiadomień';
+$txt['scheduled_task_desc_daily_digest'] = 'Wyślij e-maile z dziennym zestawieniem powiadomień dla subskrybentów.';
+$txt['scheduled_task_weekly_digest'] = 'Podsumowanie cotygodniowych powiadomień';
+$txt['scheduled_task_desc_weekly_digest'] = 'Wyślij e-maile z tygodniowym zestawieniem powiadomień dla subskrybentów.';
 $txt['scheduled_task_fetchSMfiles'] = 'Sprawdź pliki Simple Machines';
 $txt['scheduled_task_desc_fetchSMfiles'] = 'Naprawia pliki javascript zawierające powiadomienia o aktualizacjach i inne informacje.';
-$txt['scheduled_task_birthdayemails'] = 'Wyślij E-maile z życzeniami urodzinowymi';
-$txt['scheduled_task_desc_birthdayemails'] = 'Wyślij E-maile życzące użytkownikom wszystkiego najlepszego z okazji urodzin.';
+$txt['scheduled_task_birthdayemails'] = 'Wyślij e-maile z życzeniami urodzinowymi';
+$txt['scheduled_task_desc_birthdayemails'] = 'Wyślij e-maile życzące użytkownikom wszystkiego najlepszego z okazji urodzin.';
 $txt['scheduled_task_weekly_maintenance'] = 'Cotygodniowa konserwacja';
 $txt['scheduled_task_desc_weekly_maintenance'] = 'Uruchom niezbędną cotygodniową konserwację forum - nie powinno być wyłączone.';
 $txt['scheduled_task_paid_subscriptions'] = 'Sprawdź subskrypcje';
