@@ -488,7 +488,7 @@ MEMBERNAME:
 'subject' => 'Nowe hasło dla {FORUMNAME}',
 
 'body' => 'Drogi {REALNAME},
-Ten email został wysłany, ponieważ użyłeś funkcji \'forgot password\'. Aby ustawić nowe hasło, kliknij w poniższy link:
+Ten e-mail został wysłany, ponieważ użyłeś funkcji \'Zapomniałeś hasła?\'. Aby ustawić nowe hasło, kliknij w poniższy link:
 {REMINDLINK}
 
 IP: {IP}
