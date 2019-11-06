@@ -1,8 +1,5 @@
 <?php
-// Version: 2.0; Admin
-
 global $settings, $scripturl;
-
 $txt['admin_boards'] = 'Działy forum';
 $txt['admin_users'] = 'Użytkownicy forum';
 $txt['admin_newsletters'] = 'Wyślij masowo email do użytkowników';
