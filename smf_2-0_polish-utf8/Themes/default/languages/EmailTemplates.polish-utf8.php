@@ -1,9 +1,23 @@
 <?php
+<<<<<<< HEAD
 global $context, $birthdayEmails;
+=======
+// Version: 2.0; EmailTemplates
+
+global $context, $birthdayEmails;
+
+// Important! Before editing these language files please read the text at the top of index.english.php.
+// Since all of these strings are being used in emails, numeric entities should be used.
+// Do not translate anything that is between {}, they are used as replacement variables and MUST remain exactly how they are.
+//   Additionally do not translate the @additioinal_parmas: line or the variable names in the lines that follow it.  You may
+//   translate the description of the variable.  Do not translate @description:, however you may translate the rest of that line.
+// Do not use block comments in this file, they will have special meaning.
+>>>>>>> parent of bc050b9... usunięcie plików
 $txt['scheduled_approval_email_topic'] = 'Następujące tematy oczekują na zatwierdzenie:';
 $txt['scheduled_approval_email_msg'] = 'Następujące wiadomości oczekują na zatwierdzenie:';
 $txt['scheduled_approval_email_attach'] = 'Następujące załączniki oczekują na zatwierdzenie:';
 $txt['scheduled_approval_email_event'] = 'Następujące wydarzenia oczekują na zatwierdzenie:';
+<<<<<<< HEAD
 $txt['emails'] = array(
 	'resend_activate_message' => array(
 		'subject' => 'Witamy na {FORUMNAME}',
@@ -39,6 +53,117 @@ $txt['emails'] = array(
 'body' => '{USERNAME},Z przykrością informujemy, że Twoja prośba o dołączenie do "{GROUPNAME}" na {FORUMNAME} została odrzucona.
 Powód odrzucenia Twojej prośby: {REASON}
 {REGARDS}',
+=======
+
+$txt['emails'] = array(
+
+'resend_activate_message' => array(
+
+/*
+@additional_params: resend_activate_message
+REALNAME: The display name for the member receiving the email.
+USERNAME: The user name for the member receiving the email.
+ACTIVATIONLINK: The url link to activate the member's account.
+ACTIVATIONCODE: The code needed to activate the member's account.
+ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
+FORGOTPASSWORDLINK: The url to the "forgot password" page.
+@description:
+*/
+
+'subject' => 'Witamy na {FORUMNAME}',
+
+'body' => 'Dziękujemy za rejestrację na {FORUMNAME}. Twoja nazwa użytkownika to "{USERNAME}". Jeśli zapomniałeś swojego hasła możesz je zresetować za pomocą {FORGOTPASSWORDLINK}
+
+Zanim będziesz mógł się zalogować, musisz najpierw aktywować swoje konto. Aby to zrobić, kliknij w poniższy link:
+
+{ACTIVATIONLINK}
+
+Masz problemy z aktywacją? Odwiedź {ACTIVATIONLINKWITHOUTCODE} i wpisz kod aktywacyjny "{ACTIVATIONCODE}".
+
+{REGARDS}',
+
+),
+
+'resend_pending_message' => array(
+
+/*
+@additional_params: resend_pending_message
+REALNAME: The display name for the member receiving the email.
+USERNAME: The user name for the member receiving the email.
+@description:
+*/
+
+'subject' => 'Witamy na {FORUMNAME}',
+
+'body' => '{REALNAME}, otrzymaliśmy Twoją prośbę o rejestrację na {FORUMNAME}.
+
+Nazwa użytkownika, pod którą się zarejestrowałeś, to {USERNAME}.
+
+Zanim będziesz mógł się zalogować i używać forum, Twoja prośba o rejestrację musi zostać zatwierdzona. Kiedy to nastąpi, otrzymasz kolejnego maila z tego adresu.
+
+{REGARDS}',
+
+),
+
+'mc_group_approve' => array(
+
+/*
+@additional_params: mc_group_approve
+USERNAME: The user name for the member receiving the email.
+GROUPNAME: The name of the membergroup that the user was accepted into.
+@description: The request to join a particular membergroup has been accepted.
+*/
+
+'subject' => 'Zostałeś dodany do grupy',
+
+'body' => '{USERNAME},
+
+Pragniemy poinformować, że Twoja prośba o dołączenie do grupy "{GROUPNAME}" na {FORUMNAME} została przyjęta. Twoje konto zostało zaktualizowane i uwzględnia teraz członkostwo w tej grupie.
+
+{REGARDS}',
+
+),
+
+'mc_group_reject' => array(
+
+/*
+@additional_params: mc_group_reject
+USERNAME: The user name for the member receiving the email.
+GROUPNAME: The name of the membergroup that the user was rejected from.
+@description: The request to join a particular membergroup has been rejected.
+*/
+
+'subject' => 'Członkostwo w grupie odrzucone',
+
+'body' => '{USERNAME},
+
+Z przykrością informujemy, że Twoja prośba o dołączenie do "{GROUPNAME}" na {FORUMNAME} została odrzucona.
+
+{REGARDS}',
+
+),
+
+'mc_group_reject_reason' => array(
+
+/*
+@additional_params: mc_group_reject_reason
+USERNAME: The user name for the member receiving the email.
+GROUPNAME: The name of the membergroup that the user was rejected from.
+REASON: Reason for the rejection.
+@description: The request to join a particular membergroup has been rejected with a reason given.
+*/
+
+'subject' => 'Członkostwo w grupie odrzucone',
+
+'body' => '{USERNAME},
+
+Z przykrością informujemy, że Twoja prośba o dołączenie do "{GROUPNAME}" na {FORUMNAME} została odrzucona.
+
+Powód odrzucenia Twojej prośby: {REASON}
+
+{REGARDS}',
+
+>>>>>>> parent of bc050b9... usunięcie plików
 ),
 
 'admin_approve_accept' => array(
@@ -512,7 +637,11 @@ Dzięki,
 {SENDERNAME}',
 
 ),
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> parent of bc050b9... usunięcie plików
 'send_email' => array(
 
 /*
@@ -586,7 +715,11 @@ Możesz zmienić te dane w swoim profilu, po zalogowaniu na forum. Możesz też 
 /*
 @additional_params: register_activate
 REALNAME: The display name for the member receiving the email.
+<<<<<<< HEAD
 USERNAME: The user name for the member receiving the email.
+=======
+USERNAME: The user name for the member receiving the email.	
+>>>>>>> parent of bc050b9... usunięcie plików
 PASSWORD: The password for the member.
 ACTIVATIONLINK: The url link to reactivate the member's account.
 ACTIVATIONLINKWITHOUTCODE: The url to the page where the activation code can be entered.
@@ -740,7 +873,11 @@ FORGOTPASSWORDLINK: The url to the "forgot password" page.
 
 'subject' => 'Witamy na {FORUMNAME}',
 
+<<<<<<< HEAD
 'body' => 'Twoja prośba o rejestrację na {FORUMNAME} została otrzymana, {REALNAME}.
+=======
+'body' => 'Twoja prośba o rejestrację na {FORUMNAME} została otrzymana, {REALNAME}. 
+>>>>>>> parent of bc050b9... usunięcie plików
 
 Twoja nazwa użytkownika to {USERNAME}. Jeśli zapomniałeś swojego hasła możesz je zmienić w {FORGOTPASSWORDLINK}.
 
@@ -762,7 +899,11 @@ OPENID: The openID identity for the member.
 
 'subject' => 'Witamy na {FORUMNAME}',
 
+<<<<<<< HEAD
 'body' => 'Twoja prośba o rejestrację na {FORUMNAME} została otrzymana, {REALNAME}.
+=======
+'body' => 'Twoja prośba o rejestrację na {FORUMNAME} została otrzymana, {REALNAME}. 
+>>>>>>> parent of bc050b9... usunięcie plików
 
 Twoja nazwa użytkownika to {USERNAME}.
 
@@ -1172,7 +1313,11 @@ $birthdayEmails = array(
 		'subject' => 'Życzenia urodzinowe z {FORUMNAME}.',
 		'body' => 'Drogi {REALNAME},
 
+<<<<<<< HEAD
 Społeczność {FORUMNAME} pragnie złożyć Ci najlepsze Życzenia Urodzinowe! Niech ten dzień i kolejny rok będą pełne radości i sukcesów.
+=======
+Społeczność {FORUMNAME} pragnie złożyć Ci najlepsze Życzenia Urodzinowe! Niech ten dzień i kolejny rok będą pełne radości i sukcesów. 
+>>>>>>> parent of bc050b9... usunięcie plików
 
 {REGARDS}',
 		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=2676">Thantos</a>',
@@ -1187,9 +1332,15 @@ Mogliśmy nawet wysłać Ci jedną z tych automatycznie generowanych wiadomości
 
 Ale tego nie zrobiliśmy.
 
+<<<<<<< HEAD
 Napisaliśmy te Serdeczne Życzenia Urodzinowe dokładnie dla Ciebie!
 
 Chcielibyśmy życzyć Ci naprawdę wyjątkowych urodzin!
+=======
+Napisaliśmy te Serdeczne Życzenia Urodzinowe dokładnie dla Ciebie! 
+
+Chcielibyśmy życzyć Ci naprawdę wyjątkowych urodzin! 
+>>>>>>> parent of bc050b9... usunięcie plików
 
 {REGARDS}
 
@@ -1198,9 +1349,15 @@ Chcielibyśmy życzyć Ci naprawdę wyjątkowych urodzin!
 	),
 	'nite0859' => array(
 		'subject' => 'Wszystkiego Najlepszego z okazji urodzin!',
+<<<<<<< HEAD
 		'body' => '{REALNAME}, Twoi znajomi na {FORUMNAME} chcieliby zabrać Ci chwilę Twojego czasu i złożyć Ci Życzenia Urodzinowe! Jeśli nie robiłeś tego ostatnio, odwiedź forum, aby inni użytkownicy również mieli okazję złożyć Ci Życzenia!
 
 Nawet w dniu Twoich urodzin, {REALNAME}, chcielibyśmy abyś pamiętał, że Twoje uczestnictwo w naszej społeczności, jest najlepszą rzeczą jaka nas dotąd spotkała.
+=======
+		'body' => '{REALNAME}, Twoi znajomi na {FORUMNAME} chcieliby zabrać Ci chwilę Twojego czasu i złożyć Ci Życzenia Urodzinowe! Jeśli nie robiłeś tego ostatnio, odwiedź forum, aby inni użytkownicy również mieli okazję złożyć Ci Życzenia! 
+
+Nawet w dniu Twoich urodzin, {REALNAME}, chcielibyśmy abyś pamiętał, że Twoje uczestnictwo w naszej społeczności, jest najlepszą rzeczą jaka nas dotąd spotkała. 
+>>>>>>> parent of bc050b9... usunięcie plików
 
 Najlepsze Życzenia,
 Załoga {FORUMNAME}',
@@ -1210,13 +1367,18 @@ Załoga {FORUMNAME}',
 		'subject' => 'Życzenia urodzinowe dla {REALNAME}',
 		'body' => 'Drogi {REALNAME},
 
+<<<<<<< HEAD
 Minął kolejny rok w Twoim życiu!  My, na {FORUMNAME} mamy nadzieję, że był on przepełniony szczęściem i życzymy Ci powodzenia na kolejny!
+=======
+Minął kolejny rok w Twoim życiu!  My, na {FORUMNAME} mamy nadzieję, że był on przepełniony szczęściem i życzymy Ci powodzenia na kolejny! 
+>>>>>>> parent of bc050b9... usunięcie plików
 
 {REGARDS}',
 		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=72038">zwaldowski</a>',
 	),
 	'geezmo' => array(
 		'subject' => '{REALNAME}, Wszystkiego najlepszego z okazji urodzin!',
+<<<<<<< HEAD
 		'body' => '{REALNAME}, czy wiesz, kto dziś obchodzi urodziny?
 
 My wiemy... TY!
@@ -1224,6 +1386,15 @@ My wiemy... TY!
 Wszystkiego Najlepszego!
 
 Jesteś wszak, o rok starszy, ale żywimy nadzieję, że jesteś bardziej szczęśliwy niż w rok temu!
+=======
+		'body' => '{REALNAME}, czy wiesz, kto dziś obchodzi urodziny? 
+
+My wiemy... TY! 
+
+Wszystkiego Najlepszego!
+
+Jesteś wszak, o rok starszy, ale żywimy nadzieję, że jesteś bardziej szczęśliwy niż w rok temu! 
+>>>>>>> parent of bc050b9... usunięcie plików
 
 {REALNAME}, ciesz się dzisiejszym dniem!
 
@@ -1232,10 +1403,17 @@ Jesteś wszak, o rok starszy, ale żywimy nadzieję, że jesteś bardziej szczę
 	),
 	'karlbenson2' => array(
 		'subject' => 'Twoje Życzenia Urodzinowe',
+<<<<<<< HEAD
 		'body' => 'Czy będzie pochmurnie, czy deszczowo, czy jakakolwiek inna aura, życzymy Ci, aby Twoje urodziny były The Best!
 Dużo tortów urodzinowych, zabawy, aha... i opowiedz nam co wyprawiałeś/aś!
 
 Mamy nadzieję, że ta wiadomość doda Ci otuchy aż do następnego roku, w tym samym miejscu i czasie!
+=======
+		'body' => 'Czy będzie pochmurnie, czy deszczowo, czy jakakolwiek inna aura, życzymy Ci, aby Twoje urodziny były The Best! 
+Dużo tortów urodzinowych, zabawy, aha... i opowiedz nam co wyprawiałeś/aś! 
+
+Mamy nadzieję, że ta wiadomość doda Ci otuchy aż do następnego roku, w tym samym miejscu i czasie! 
+>>>>>>> parent of bc050b9... usunięcie plików
 
 {REGARDS}',
 		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=63186">karlbenson</a>',
