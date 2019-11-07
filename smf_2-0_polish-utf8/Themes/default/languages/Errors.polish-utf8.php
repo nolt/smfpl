@@ -2,7 +2,6 @@
 // Version: 2.0; Errors
 
 global $scripturl, $modSettings;
-<<<<<<< HEAD
 $txt['no_access'] = 'Nie masz dostępu do tej sekcji';
 $txt['wireless_error_notyet'] = 'Przepraszamy, w tym momencie ta sekcja nie jest dostępna dla użytkowników trybu bezprzewodowego.';
 $txt['mods_only'] = 'Tylko moderatorzy mogą usuwać wiadomości, wykasuj swoją wiadomość używając funkcji &quot;Zmień&quot;.';
@@ -11,18 +10,6 @@ $txt['no_email'] = 'Nie wpisałeś adresu email - jest to wymagane.';
 $txt['topic_locked'] = 'Ten wątek jest zamknięty. Nie można dodawać nowych odpowiedzi';
 $txt['no_password'] = 'Pole hasło jest puste';
 $txt['already_a_user'] = 'Nazwa użytkownika, której próbowałeś użyć jest już zajęta.';
-=======
-
-$txt['no_access'] = 'Nie masz dostępu do tej sekcji';
-$txt['wireless_error_notyet'] = 'Przepraszamy, w tym momencie ta sekcja nie jest dostępna dla użytkowników trybu bezprzewodowego.';
-
-$txt['mods_only'] = 'Tylko moderatorzy mogą usuwać wiadomości, wykasuj swoją wiadomość używając funkcji &quot;Zmień&quot;.';
-$txt['no_name'] = 'Nie wpisałeś nazwy użytkownika - jest to wymagane.';
-$txt['no_email'] = 'Nie wpisałeś adresu email - jest to wymagane.';
-$txt['topic_locked'] = 'Ten wątek jest zamknięty, nie masz zezwolenia na wysyłanie lub modyfikację wiadomości...';
-$txt['no_password'] = 'Pole hasło jest puste';
-$txt['already_a_user'] = 'Nazwa użytkownika, której próbowałeś jest już zajęta.';
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['cant_move'] = 'Nie masz zezwolenia na przenoszenie wątków...';
 $txt['login_to_post'] = 'Musisz być zalogowany aby wysyłać wiadomości. Jeśli nie masz jeszcze konta, <a href="' . $scripturl . '?action=register">zarejestruj się</a>.';
 $txt['passwords_dont_match'] = 'Hasła nie są identyczne.';
@@ -36,10 +23,6 @@ $txt['not_a_user'] = 'Profil użytkownika, który próbujesz przeglądać nie is
 $txt['not_a_topic'] = 'Wątek nie istnieje.';
 $txt['not_approved_topic'] = 'Ten wątek nie został jeszcze zaakceptowany.';
 $txt['email_in_use'] = 'Podany adres email (%1$s) jest używany przez innego zarejestrowanego użytkownika. Jeśli to pomyłka, przejdź do strony z logowaniem i postaraj się przywrócić hasło na ten adres email.';
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['didnt_select_vote'] = 'Nie wybrałeś żadnej z opcji ankiety.';
 $txt['poll_error'] = 'Ankieta nie istnieje, została zamknięta lub próbowałeś zagłosować dwa razy.';
 $txt['members_only'] = 'Opcja ta jest dostępna tylko użytkownikom zarejestrowanym.';
@@ -71,10 +54,6 @@ $txt['session_timeout'] = 'Czas twojej sesji skończył się podczas pisania wia
 $txt['session_verify_fail'] = 'Weryfikacja sesji nie powiodła się. Wyloguj i zaloguj się ponownie, a potem spróbuj jeszcze raz.';
 $txt['verify_url_fail'] = 'Nie można zweryfikować URL odnoszącego. Powróć i spróbuj jeszcze raz.';
 $txt['guest_vote_disabled'] = 'Goście nie mogą głosować w tej ankiecie.';
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['cannot_access_mod_center'] = 'Nie masz zezwoleń do dostępu do centrum moderacji.';
 $txt['cannot_admin_forum'] = 'Nie masz zezwolenia na administrowanie tym forum.';
 $txt['cannot_announce_topic'] = 'Nie masz zezwolenia na ogłaszanie wątków w tym dziele.';
@@ -153,10 +132,6 @@ $txt['cannot_view_attachments'] = 'Nie masz zezwolenia na pobieranie i oglądani
 $txt['cannot_view_mlist'] = 'Nie masz zezwolenia na przeglądanie listy użytkowników.';
 $txt['cannot_view_stats'] = 'Nie masz zezwolenia na przeglądanie statystyk forum.';
 $txt['cannot_who_view'] = 'Nie masz zezwolenia na przeglądanie listy użytkowników online.';
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['no_theme'] = 'Ten styl nie istnieje.';
 $txt['theme_dir_wrong'] = 'Domyślny katalog stylów jest zły, popraw to klikając na ten tekst.';
 $txt['registration_disabled'] = 'Rejestracja jest obecnie wyłączona.';
@@ -169,10 +144,6 @@ $txt['incorrect_answer'] = 'Udzieliłeś nieprawidłowej odpowiedzi. Przejdź je
 $txt['no_mods'] = 'Nie znaleziono żadnych moderatorów!';
 $txt['parent_not_found'] = 'Struktura działów uszkodzona: nie można znaleźć działu nadrzędnego';
 $txt['modify_post_time_passed'] = 'Nie możesz edytować tej wiadomość, ponieważ minął minimalny czas w którym mogłeś to zrobić.';
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['calendar_off'] = 'Obecnie nie masz dostępu do kalendarza, ponieważ jest wyłączony.';
 $txt['invalid_month'] = 'Niewłaściwy numer miesiąca.';
 $txt['invalid_year'] = 'Niewłaściwy numer roku.';
@@ -192,18 +163,9 @@ $txt['not_your_topic'] = 'Nie jesteś twórcą tego wątku.';
 $txt['board_doesnt_exist'] = 'Dział nie istnieje.';
 $txt['no_span'] = 'Funkcja kilkudniowych wydarzeń jest wyłączona.';
 $txt['invalid_days_numb'] = 'Nieprawidłowa ilość dni trwania wydarzenia.';
-<<<<<<< HEAD
 $txt['moveto_noboards'] = 'Dział, do którego chcesz przenieść wątek, nie istnieje!';
 $txt['already_activated'] = 'Twoje konto zostało już zaktywowane.';
 $txt['still_awaiting_approval'] = 'Twoje konto nadal oczekuje na zatwierdzenie przez administratora.';
-=======
-
-$txt['moveto_noboards'] = 'Dział, do którego chcesz przenieść wątek, nie istnieje!';
-
-$txt['already_activated'] = 'Twoje konto zostało już zaktywowane.';
-$txt['still_awaiting_approval'] = 'Twoje konto nadal oczekuje na zatwierdzenie przez administratora.';
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['invalid_email'] = 'Nieprawidłowy adres email lub zakres adresów.<br />Przykład prawidłowego adresu: zly.uzytkownik@brzydkastrona.com.<br />Przykład prawidłowego zakresu adresów: *@*.brzydkastrona.com';
 $txt['invalid_expiration_date'] = 'Nieprawidłowa data wygaśnięcia';
 $txt['invalid_hostname'] = 'Nieprawidłowa nazwa dostawcy lub zakres nazw<br />Przykład prawidłowej nazwy: proxy4.zlyhost.com<br />Przykład prawidłowego zakresu nazw: *.zlyhost.com';
@@ -217,26 +179,12 @@ $txt['ban_unknown_restriction_type'] = 'Rodzaj ograniczenia nie znany';
 $txt['ban_name_empty'] = 'Nazwa bana jest pusta';
 $txt['ban_name_exists'] = 'Podana nazwa bana (%1$s) już istnieje, wybierz inną.';
 $txt['ban_trigger_already_exists'] = 'Ten ban (%1$s) już istnieje w %2$s. ';
-<<<<<<< HEAD
 $txt['recycle_no_valid_board'] = 'Nie wybrano działu do zachowywania wątków';
 $txt['login_threshold_fail'] = 'Wyczerpałeś ilość prób zalogowania. Spróbuj jeszcze raz później.';
 $txt['login_threshold_brute_fail'] = 'Wybacz, wyczerpałeś już ilość prób zalogowania. Odczekaj 30 sekund i spróbuj ponownie później.';
 $txt['who_off'] = 'Obecnie nie masz dostępu do listy użytkowników online, ponieważ jest wyłączona.';
 $txt['merge_create_topic_failed'] = 'Błąd podczas tworzenia wątku.';
 $txt['merge_need_more_topics'] = 'Potrzeba co najmniej dwóch wątków aby je scalić.';
-=======
-
-$txt['recycle_no_valid_board'] = 'Nie wybrano działu do zachowywania wątków';
-
-$txt['login_threshold_fail'] = 'Wyczerpałeś ilość prób zalogowania. Spróbuj jeszcze raz później.';
-$txt['login_threshold_brute_fail'] = 'Wybacz, wyczerpałeś już ilość prób zalogowania. Odczekaj 30 sekund i spróbuj ponownie później.';
-
-$txt['who_off'] = 'Obecnie nie masz dostępu do listy użytkowników online, ponieważ jest wyłączona.';
-
-$txt['merge_create_topic_failed'] = 'Błąd podczas tworzenia wątku.';
-$txt['merge_need_more_topics'] = 'Potrzeba co najmniej dwóch wątków aby je scalić.';
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['postWaitTime_broken'] = 'Ostatnia odpowiedź z twojego IP była %1$d sekund temu. Spróbuj ponownie.';
 $txt['registerWaitTime_broken'] = 'Zarejestrowałeś się już %1$d sekund temu!';
 $txt['loginWaitTime_broken'] = 'Musisz poczekać około %1$d sekund aby ponownie się zalogować.';
@@ -245,38 +193,19 @@ $txt['reporttmWaitTime_broken'] = 'Ostatni wątek z twojego IP był %1$d sekund 
 $txt['sendtopcWaitTime_broken'] = 'Ostatni wątek wysłany z twojego IP był %1$d sekund temu. Spróbuj ponownie.';
 $txt['sendmailWaitTime_broken'] = 'Ostatni email wysłany z twojego IP był %1$d sekund temu. Spróbuj ponownie.';
 $txt['searchWaitTime_broken'] = 'Od twojego ostatniego wyszukiwania upłynęło mniej niż %1$d. Spróbuj później.';
-<<<<<<< HEAD
 $txt['email_missing_data'] = 'Musisz wpisać coś w pola tematu i wiadomości.';
 $txt['topic_gone'] = 'Wątek lub dział, którego szukasz nie istnieje albo nie masz do niego dostępu.';
 $txt['theme_edit_missing'] = 'Plik który chcesz zmienić nie został znaleziony!';
 $txt['attachments_no_write'] = 'Nie można zapisywać w katalogu załączników. Twój załącznik lub awatar nie może być zapisany.';
 $txt['attachments_limit_per_post'] = 'Maksymalna liczba załączników na jedną wiadomość to: %1$d';
-=======
-
-$txt['email_missing_data'] = 'Musisz wpisać coś w pola tematu i wiadomości.';
-
-$txt['topic_gone'] = 'Wątek lub dział, którego szukasz nie istnieje albo nie masz do niego dostępu.';
-$txt['theme_edit_missing'] = 'Plik który chcesz zmienić nie został znaleziony!';
-
-$txt['attachments_no_write'] = 'Nie można zapisywać w katalogu załączników. Twój załącznik lub awatar nie może być zapisany.';
-$txt['attachments_limit_per_post'] = 'Maksymalna liczba załączników na jedną wiadomość to: %1$d';
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['no_dump_database'] = 'Tylko administratorzy mogą wykonywać kopie zapasowe bazy danych!';
 $txt['pm_not_yours'] = 'Prywatna wiadomość, którą próbujesz cytować nie jest twoja lub nie istnieje, przejdź wstecz i spróbuj jeszcze raz.';
 $txt['mangled_post'] = 'Uszkodzony formularz danych - przejdź wstecz i spróbuj jeszcze raz.';
 $txt['quoted_post_deleted'] = 'Wiadomość, którą próbujesz zacytować, nie istnieje, została skasowana lub nie masz uprawnień do czytania jej.';
 $txt['pm_too_many_per_hour'] = 'Przekroczyłeś limit %1$d wiadomości prywatnych na godzinę.';
 $txt['labels_too_many'] = 'Przepraszamy, %1$s wiadomość posiada maksymalną liczbę etykiet!';
-<<<<<<< HEAD
 $txt['register_only_once'] = 'Przepraszamy, ale nie można rejestrować wielu kont w tym samym czasie z tego samego komputera.';
 $txt['admin_setting_coppa_require_contact'] = 'Musisz wpisać kod pocztowy lub nr faxu jeśli to konieczne do potwierdzenia twojej wiarygodności.';
-=======
-
-$txt['register_only_once'] = 'Przepraszamy, ale nie można rejestrować wielu kont w tym samym czasie z tego samego komputera.';
-$txt['admin_setting_coppa_require_contact'] = 'Musisz wpisać kod pocztowy lub nr faxu jeśli to konieczne do potwierdzenia twojej wiarygodności.';
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['error_long_name'] = 'Nazwa użytkownika, której użyłeś, była za długa.';
 $txt['error_no_name'] = 'Nie podano nazwy użytkownika.';
 $txt['error_bad_name'] = 'Podana przez Ciebie nazwa użytkownika nie może zostać użyta, ponieważ zawiera nazwę zarezerwowaną.';
@@ -300,10 +229,6 @@ $txt['error_wrong_verification_answer'] = 'Odpowiedziałeś błędnie na pytanie
 $txt['error_need_verification_code'] = 'Wprowadź niżej kod weryfikacyjny aby kontynuować.';
 $txt['error_bad_file'] = 'Przepraszamy, podany plik nie może zostać otwarty: %1$s';
 $txt['error_bad_line'] = 'Podana linia jest niepoprawna.';
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['smiley_not_found'] = 'Uśmieszek nie znaleziony.';
 $txt['smiley_has_no_code'] = 'Temu uśmieszkowi nie przyznano kodu.';
 $txt['smiley_has_no_filename'] = 'Nie podano nazwy pliku dla tego uśmieszku.';
@@ -312,23 +237,12 @@ $txt['smiley_set_already_exists'] = 'Zestaw uśmieszków pod tym adresem URL ju�
 $txt['smiley_set_not_found'] = 'Zestaw uśmieszków nie znaleziony';
 $txt['smiley_set_path_already_used'] = 'Adres URL tego zestawu uśmieszków jest już zajęty przez inny zestaw.';
 $txt['smiley_set_unable_to_import'] = 'Nie można importować zestawu uśmieszków. Katalog jest niewłaściwy lub nie można uzyskać do niego dostępu.';
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['smileys_upload_error'] = 'Błąd przy wysyłaniu pliku.';
 $txt['smileys_upload_error_blank'] = 'Wszystkie zestawy uśmieszków muszą mieć obrazek!';
 $txt['smileys_upload_error_name'] = 'Wszystkie uśmieszki muszą mieć tę samą nazwę pliku!';
 $txt['smileys_upload_error_illegal'] = 'Niewłaściwy typ pliku.';
-<<<<<<< HEAD
 $txt['search_invalid_weights'] = 'Wagi wyszukiwania nie są poprawnie skonfigurowane. Przynajmniej jedna musi mieć wartość inną niż zero. Zgłoś ten błąd administratorowi.';
 $txt['unable_to_create_temporary'] = 'Funkcja wyszukiwania nie mogła stworzyć tymczasowych tabel. Spróbuj ponownie.';
-=======
-
-$txt['search_invalid_weights'] = 'Wagi wyszukiwania nie są poprawnie skonfigurowane. Przynajmniej jedna musi mieć wartość inną niż zero. Zgłoś ten błąd administratorowi.';
-$txt['unable_to_create_temporary'] = 'Funkcja wyszukiwania nie mogła stworzyć tymczasowych tabel. Spróbuj ponownie.';
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['package_no_file'] = 'Nie można znaleźć pliku pakietu!';
 $txt['packageget_unable'] = 'Nie można połączyć się z serwerem. Spróbuj używając <a href="%1$s" target="_blank" class="new_win">tego adresu</a>.';
 $txt['not_on_simplemachines'] = 'Pakiety mogą być pobierane w ten sposób tylko z serwera simplemachines.org.';
@@ -339,34 +253,17 @@ $txt['package_upload_error_failed'] = 'Nie można wysłać pakietu, sprawdź zez
 $txt['package_upload_error_exists'] = 'Plik, który wysyłasz, jest już na serwerze. Najpierw go skasuj, a potem wyślij ponownie.';
 $txt['package_upload_error_supports'] = 'Menedżer pakietów aktualnie pozawala tylko na takie typy plików: %1$s.';
 $txt['package_upload_error_broken'] = 'Pakiet który starasz się wysłać jest nie poprawny lub uszkodzony i powoduje następujący błąd:<br />&quot;%1$s&quot; .';
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['package_get_error_not_found'] = 'Pakiet, który próbujesz zainstalować nie może zostać zlokalizowany. Możesz spróbować ręcznie wgrać pakiet do katalogu pakietów.';
 $txt['package_get_error_missing_xml'] = 'Próbujesz zainstalować pakiet nie posiadający pliku package-info.xml, który musi być w głównym katalogu pakietu.';
 $txt['package_get_error_is_zero'] = 'Mimo, że pakiet został pobrany na serwer, wydaje się być pusty. Sprawdź czy katalog pakietów oraz podkatalog &quot;temp&quot; są zapisywalne. Jeżeli problem nie ustąpi, powinieneś spróbować rozpakować pakiet na twoim własnym komputerze i wgrać wypakowane pliki do podkatalogu w katalogu pakietów i spróbować jeszcze raz. Na przykład, jeśli pakiet był nazwany shout.tar.gz to:<br />1) Pobierz pakiet na twój komputer i rozpakuj<br />2) Używając klienta FTP stwórz nowy katalog w folderze &quot;Packages&quot;, w tym przykładzie możesz go nazwać "shout".<br />3) Wgraj wszystkie wypakowane pliki pakietu do tego katalogu.<br />4) Wróć do strony przeglądania pakietów w menadżerze, pakiet powinien zostać automatycznie znaleziony przez SMF.';
 $txt['package_get_error_packageinfo_corrupt'] = 'SMF nie mogło znaleźć żadnych poprawnych informacji w pliku package-info.xml, załączonym w pakiecie. Powodem może być błąd w modyfikacji albo pakiet jest uszkodzony.';
-<<<<<<< HEAD
 $txt['no_membergroup_selected'] = 'Nie zaznaczono żadnej grupy użytkowników';
 $txt['membergroup_does_not_exist'] = 'Grupa użytkowników nie istnieje lub jest nieprawidłowa.';
 $txt['at_least_one_admin'] = 'Musi istnieć przynajmniej jeden Administrator forum!';
-=======
-
-$txt['no_membergroup_selected'] = 'Nie zaznaczono żadnej grupy użytkowników';
-$txt['membergroup_does_not_exist'] = 'Grupa użytkowników nie istnieje lub jest nieprawidłowa.';
-
-$txt['at_least_one_admin'] = 'Musi istnieć przynajmniej jeden Administrator forum!';
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['error_functionality_not_windows'] = 'Przepraszamy, ta opcja obecnie nie jest dostępna dla serwerów pracujących na Windows.';
 
 // Don't use entities in the below string.
 $txt['attachment_not_found'] = 'Załącznik nie znaleziony';
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['error_no_boards_selected'] = 'Nie wybrano prawidłowo działów!';
 $txt['error_invalid_search_string'] = 'Czy nie zapomniałeś podać co szukać?';
 $txt['error_invalid_search_string_blacklist'] = 'Twoje wyszukiwane zapytanie zawiera zbyt banalne słowa. Prosimy spróbuj ponownie z innym zapytaniem.';
@@ -375,10 +272,6 @@ $txt['error_query_not_specific_enough'] = 'Twoje zapytanie nie jest wystarczają
 $txt['error_no_messages_in_time_frame'] = 'Nie znaleziono żadnych pasujących wiadomości w wybranym przedziale czasowym.';
 $txt['error_no_labels_selected'] = 'Nie wybrano etykiety!';
 $txt['error_no_search_daemon'] = 'Brak dostępu do narzędzia wyszukiwania';
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['profile_errors_occurred'] = 'Wystąpiły następujące błędy podczas próby zapisania twojego profilu';
 $txt['profile_error_bad_offset'] = 'Niepoprawnie podana strefa czasowa';
 $txt['profile_error_no_name'] = 'Pole z nazwą użytkownika jest puste';
@@ -396,7 +289,6 @@ $txt['profile_error_password_restricted_words'] = 'Twoje hasło nie może zwiera
 $txt['profile_error_password_chars'] = 'Twoje hasło musi zawierać mieszankę dużych i małych liter, oraz cyfr.';
 $txt['profile_error_already_requested_group'] = 'Już posiadasz pierwszeństwo do przyznania do tej grupy!';
 $txt['profile_error_openid_in_use'] = 'Podany URL weryfikacyjny dla OpenID jest już używane przez innego użytkownika.';
-<<<<<<< HEAD
 $txt['mysql_error_space'] = '- sprawdź miejsce zapisu bazy danych lub skontaktuj się z administratorem serwera.';
 $txt['icon_not_found'] = 'Plik ikony nie została znaleziona w domyślnym stylu - upewnij się że obrazek został wysłany i spróbuj ponownie.';
 $txt['icon_after_itself'] = 'Ikona nie może być pozycjonowana względem siebie!';
@@ -406,30 +298,12 @@ $txt['poll_already_exists'] = 'Wątek może mieć tylko jedną powiązaną ze so
 $txt['poll_not_found'] = 'Nie ma ankiet związanych z tym wątkiem!';
 $txt['error_while_adding_poll'] = 'Następujący błąd lub błędy wystąpiły przy dodawaniu ankiety';
 $txt['error_while_editing_poll'] = 'Następujący błąd lub błędy wystąpiły przy edycji tej ankiety';
-=======
-
-$txt['mysql_error_space'] = '- sprawdź miejsce zapisu bazy danych lub skontaktuj się z administratorem serwera.';
-
-$txt['icon_not_found'] = 'Plik ikony nie została znaleziona w domyślnym stylu - upewnij się że obrazek został wysłany i spróbuj ponownie.';
-$txt['icon_after_itself'] = 'Ikona nie może być pozycjonowana względem siebie!';
-$txt['icon_name_too_long'] = 'Nazwa pliku ikony nie może być dłuższa niż 16 znaków';
-
-$txt['name_censored'] = 'Przykro nam, nazwa której próbujesz użyć, %1$s, zawiera słowa które zostały ocenzurowane. Użyj innej nazwy.';
-
-$txt['poll_already_exists'] = 'Wątek może mieć tylko jedną powiązaną ze sobą ankietę!';
-$txt['poll_not_found'] = 'Nie ma ankiet związanych z tym wątkiem!';
-
-$txt['error_while_adding_poll'] = 'Następujący błąd lub błędy wystąpiły przy dodawaniu ankiety';
-$txt['error_while_editing_poll'] = 'Następujący błąd lub błędy wystąpiły przy edycji tej ankiety';
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['loadavg_search_disabled'] = 'Z powodu dużego obciążenia serwera, funkcja wyszukiwania jest tymczasowo wyłączona.';
 $txt['loadavg_generic_disabled'] = 'Przykro nam, z powodu dużego obciążenia serwera, ta opcja jest obecnie niedostępna.';
 $txt['loadavg_allunread_disabled'] = 'Zasoby serwera są czasowo pod zbyt dużym obciążeniem aby znaleźć wszystkie wątki których nie czytałeś.';
 $txt['loadavg_unreadreplies_disabled'] = 'W tej chwili serwer jest przeciążony. Spróbuj ponownie za chwile.';
 $txt['loadavg_show_posts_disabled'] = 'Spróbuj jeszcze raz później. Z powodu dużego obciążenia serwera wiadomości tego użytkownika nie są w tej chwili dostępne.';
 $txt['loadavg_unread_disabled'] = 'Zasoby serwera są obecnie zbyt wysokie aby móc wyświetlić pełną listę nieprzeczytanych wątków.';
-<<<<<<< HEAD
 $txt['cannot_edit_permissions_inherited'] = 'Nie możesz edytować konkretnie dziedziczonych zezwoleń, musisz edytować albo grupę albo dziedziczącego członka grupy.';
 $txt['mc_no_modreport_specified'] = 'Musisz sprecyzować który raport chcesz wyświetlić.';
 $txt['mc_no_modreport_found'] = 'Podany raport nie istnieje lub jest poza twoim limitem';
@@ -451,41 +325,6 @@ $txt['custom_option_not_unique'] = 'Pole nazwy nie jest unikalne!';
 $txt['warning_no_reason'] = 'Musisz wpisać powód ostrzeżenia użytkownika';
 $txt['warning_notify_blank'] = 'Zaznaczyłeś powiadamianie użytkownika lecz nie wypełniłeś pola tematu lub wiadomości.';
 $txt['cannot_connect_doc_site'] = 'Nie można połączyć się z Simple Machines Online Manual. Sprawdź czy konfiguracja twojego serwera zezwala na przychodzące połączenia i spróbuj ponownie.';
-=======
-
-$txt['cannot_edit_permissions_inherited'] = 'Nie możesz edytować konkretnie dziedziczonych zezwoleń, musisz edytować albo grupę albo dziedziczącego członka grupy.';
-
-$txt['mc_no_modreport_specified'] = 'Musisz sprecyzować który raport chcesz wyświetlić.';
-$txt['mc_no_modreport_found'] = 'Podany raport nie istnieje lub jest poza twoim limitem';
-
-$txt['st_cannot_retrieve_file'] = 'Nie można odzyskać pliku %1$s.';
-$txt['admin_file_not_found'] = 'Nie można załadować wybranego pliku: %1$s.';
-
-$txt['themes_none_selectable'] = 'Przynajmniej jeden styl musi być wybrany.';
-$txt['themes_default_selectable'] = 'Standardowy styl forum musi być stylem wybieralnym.';
-$txt['ignoreboards_disallowed'] = 'Opcja ignorowania for nie jest włączona.';
-
-$txt['mboards_delete_error'] = 'Nie zaznaczono kategorii!';
-$txt['mboards_delete_board_error'] = 'Nie zaznaczono forum!';
-
-$txt['mboards_parent_own_child_error'] = 'Nie możesz stworzyć działu nadrzędnego dla własnej kategorii podrzędnej!';
-$txt['mboards_board_own_child_error'] = 'Nie możesz stworzyć działu dla własnej kategorii podrzędnej!';
-
-$txt['smileys_upload_error_notwritable'] = 'Podana ścieżka uśmieszków jest niezapisywalna: %1$s';
-$txt['smileys_upload_error_types'] = 'Obrazek może posiadać tylko podane rozszerzenia: %1$s.';
-
-$txt['change_email_success'] = 'Twój adres email został zmieniony, nowy email z aktywacją został wysłany na podany adres.';
-$txt['resend_email_success'] = 'Nowy email z aktywacją został wysłany pomyślnie.';
-
-$txt['custom_option_need_name'] = 'Opcja profilu musi mieć nazwę!';
-$txt['custom_option_not_unique'] = 'Pole nazwy nie jest unikalne!';
-
-$txt['warning_no_reason'] = 'Musisz wpisać powód ostrzeżenia użytkownika';
-$txt['warning_notify_blank'] = 'Zaznaczyłeś powiadamianie użytkownika lecz nie wypełniłeś pola tematu lub wiadomości.';
-
-$txt['cannot_connect_doc_site'] = 'Nie można połączyć się z Simple Machines Online Manual. Sprawdź czy konfiguracja twojego serwera zezwala na przychodzące połączenia i spróbuj ponownie.';
-
->>>>>>> parent of bc050b9... usunięcie plików
 $txt['movetopic_no_reason'] = 'Musisz wprowadzić powód przesunięcia wątku albo odznaczyć opcję \'Wyślij wątek przekierowujący\'.';
 
 // OpenID error strings
@@ -518,8 +357,4 @@ $txt['error_invalid_dir'] = 'Podany katalog jest nieprawidłowy.';
 
 $txt['error_sqlite_optimizing'] = 'Sqlite optymalizuje bazę danych, forum jest niedostępne dopóki proces nie zostanie ukończony. Spróbuj odświeżyć tą stronę za moment.';
 
-<<<<<<< HEAD
 ?>
-=======
-?>
->>>>>>> parent of bc050b9... usunięcie plików
