@@ -23,63 +23,22 @@ $txt['emails'] = array(
 ),
 
 'mc_group_approve' => array(
-
-/*
-@additional_params: mc_group_approve
-USERNAME: The user name for the member receiving the email.
-GROUPNAME: The name of the membergroup that the user was accepted into.
-@description: The request to join a particular membergroup has been accepted.
-*/
-
-'subject' => 'Zostałeś dodany do grupy',
-
-'body' => '{USERNAME},
-
-Pragniemy poinformować, że Twoja prośba o dołączenie do grupy "{GROUPNAME}" na {FORUMNAME} została przyjęta. Twoje konto zostało zaktualizowane i uwzględnia teraz członkostwo w tej grupie.
-
-{REGARDS}',
-
+	'subject' => 'Zostałeś dodany do grupy',
+	'body' => '{USERNAME},Pragniemy poinformować, że Twoja prośba o dołączenie do grupy "{GROUPNAME}" na {FORUMNAME} została przyjęta. Twoje konto zostało zaktualizowane i uwzględnia teraz członkostwo w tej grupie.
+	{REGARDS}',
 ),
 
 'mc_group_reject' => array(
-
-/*
-@additional_params: mc_group_reject
-USERNAME: The user name for the member receiving the email.
-GROUPNAME: The name of the membergroup that the user was rejected from.
-@description: The request to join a particular membergroup has been rejected.
-*/
-
 'subject' => 'Członkostwo w grupie odrzucone',
-
-'body' => '{USERNAME},
-
-Z przykrością informujemy, że Twoja prośba o dołączenie do "{GROUPNAME}" na {FORUMNAME} została odrzucona.
-
+'body' => '{USERNAME},Z przykrością informujemy, że Twoja prośba o dołączenie do "{GROUPNAME}" na {FORUMNAME} została odrzucona.
 {REGARDS}',
-
 ),
 
 'mc_group_reject_reason' => array(
-
-/*
-@additional_params: mc_group_reject_reason
-USERNAME: The user name for the member receiving the email.
-GROUPNAME: The name of the membergroup that the user was rejected from.
-REASON: Reason for the rejection.
-@description: The request to join a particular membergroup has been rejected with a reason given.
-*/
-
 'subject' => 'Członkostwo w grupie odrzucone',
-
-'body' => '{USERNAME},
-
-Z przykrością informujemy, że Twoja prośba o dołączenie do "{GROUPNAME}" na {FORUMNAME} została odrzucona.
-
+'body' => '{USERNAME},Z przykrością informujemy, że Twoja prośba o dołączenie do "{GROUPNAME}" na {FORUMNAME} została odrzucona.
 Powód odrzucenia Twojej prośby: {REASON}
-
 {REGARDS}',
-
 ),
 
 'admin_approve_accept' => array(
