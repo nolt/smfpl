@@ -1,4 +1,4 @@
-# Polskie tłumaczenie skryptu Simple Machines Forum (SMF).
+# Polskie tłumaczenie skryptu Simple Machines Forum (SMF) (NIE AKTUALIZOWANE).
 Repozytorium zawierające tłumaczenie skryptu SMF na język polski.
 
 ## Opisy branchy
