@@ -8,41 +8,41 @@ $txt['permissions_allowed'] = 'Zezw.';
 $txt['permissions_denied'] = 'Pozb.';
 $txt['permission_cannot_edit'] = '<strong>Uwaga:</strong> Nie możesz modyfikować zezwoleń tego profilu jako że jest on predefiniowany i został domyślnie uwzględnionym w oprogramowaniu forum. Jeśli chcesz zmienić zezwolenia tego profilu, musisz najpierw utworzyć jego duplikat. Możesz zrealizować to zadanie poprzez kliknięcie <a href="%1$s">tutaj</a>.';
 
-$txt['permissions_for_profile'] = 'Zezwolenia dla Profilu';
-$txt['permissions_boards_desc'] = 'Poniższa lista pokazuje który zestaw zezwoleń został przydzielony do poszczególnych działów na forum. Możesz modyfikować przydzielone profile zezwoleń przez kliknięcie nazwy działu lub wybranie &quot;Modyfikuj Wszystkie&quot; u dołu strony. Zaś aby zmodyfikować sam profil wystarczy kliknąć na jego nazwę.';
-$txt['permissions_board_all'] = 'Modyfikuj Wszystkie';
-$txt['permission_profile'] = 'Profil Zezwoleń';
+$txt['permissions_for_profile'] = 'Zezwolenia dla profilu';
+$txt['permissions_boards_desc'] = 'Poniższa lista pokazuje, który zestaw zezwoleń został przydzielony do poszczególnych działów na forum. Możesz modyfikować przydzielone profile zezwoleń przez kliknięcie nazwy działu lub wybranie &quot;Modyfikuj wszystkie&quot; u dołu strony. Zaś, aby zmodyfikować sam profil wystarczy kliknąć na jego nazwę.';
+$txt['permissions_board_all'] = 'Modyfikuj wszystkie';
+$txt['permission_profile'] = 'Profil zezwoleń';
 $txt['permission_profile_desc'] = 'Którego <a href="%1$s">zestawu zezwoleń</a> powinien używać dział.';
 $txt['permission_profile_inherit'] = 'Dziedzicz z działu nadrzędnego';
 
 $txt['permissions_profile'] = 'Profil';
-$txt['permissions_profiles_desc'] = 'Profile zezwoleń są przypisane do indywidualnych działów aby umożliwić ci łatwiejsze zarządzanie ustawieniami bezpieczeństwa. W tym obszarze możesz tworzyć, modyfikować i usuwać zezwolenia profili.';
-$txt['permissions_profiles_change_for_board'] = 'Edytuj Profil Zezwoleń dla: &quot;%1$s&quot;';
+$txt['permissions_profiles_desc'] = 'Profile zezwoleń są przypisane do indywidualnych działów, aby umożliwić ci łatwiejsze zarządzanie ustawieniami bezpieczeństwa. W tym obszarze możesz tworzyć, modyfikować i usuwać zezwolenia profili.';
+$txt['permissions_profiles_change_for_board'] = 'Edytuj profil zezwoleń dla: &quot;%1$s&quot;';
 $txt['permissions_profile_default'] = 'Standardowy';
-$txt['permissions_profile_no_polls'] = 'Brak Ankiet';
-$txt['permissions_profile_reply_only'] = 'Tylko Odpowiedzi';
-$txt['permissions_profile_read_only'] = 'Tylko Czytaj';
+$txt['permissions_profile_no_polls'] = 'Brak ankiet';
+$txt['permissions_profile_reply_only'] = 'Tylko odpowiedzi';
+$txt['permissions_profile_read_only'] = 'Tylko czytaj';
 
 $txt['permissions_profile_rename'] = 'Zmień nazwę';
-$txt['permissions_profile_edit'] = 'Edytuj Profile';
-$txt['permissions_profile_new'] = 'Nowy Profil';
+$txt['permissions_profile_edit'] = 'Edytuj profile';
+$txt['permissions_profile_new'] = 'Nowy profil';
 $txt['permissions_profile_new_create'] = 'Stwórz';
-$txt['permissions_profile_name'] = 'Nazwa Profilu';
+$txt['permissions_profile_name'] = 'Nazwa profilu';
 $txt['permissions_profile_used_by'] = 'Użyty przez';
-$txt['permissions_profile_used_by_one'] = 'Jeden Dział';
-$txt['permissions_profile_used_by_many'] = '%1$d Działów';
-$txt['permissions_profile_used_by_none'] = 'Żaden Dział';
+$txt['permissions_profile_used_by_one'] = 'Jeden dział';
+$txt['permissions_profile_used_by_many'] = '%1$d działów';
+$txt['permissions_profile_used_by_none'] = 'Żaden dział';
 $txt['permissions_profile_do_edit'] = 'Edytuj';
 $txt['permissions_profile_do_delete'] = 'Usuń';
 $txt['permissions_profile_copy_from'] = 'Kopiuj zezwolenia z';
 
-$txt['permissions_includes_inherited'] = 'Grupy Dziedziczące';
+$txt['permissions_includes_inherited'] = 'Grupy dziedziczące';
 
 $txt['permissions_all'] = 'wszystkie';
 $txt['permissions_none'] = 'żadne';
 $txt['permissions_set_permissions'] = 'Ustaw zezwolenia';
 
-$txt['permissions_advanced_options'] = 'Opcje Zaawansowane';
+$txt['permissions_advanced_options'] = 'Opcje zaawansowane';
 $txt['permissions_with_selection'] = 'Zaznaczone';
 $txt['permissions_apply_pre_defined'] = 'Ustaw predefiniowany zestaw zezwoleń';
 $txt['permissions_select_pre_defined'] = 'Wybierz zestaw';
@@ -58,20 +58,20 @@ $txt['permissions_select_permission'] = 'Wybierz pozwolenie';
 // All of the following block of strings should not use entities, instead use \\" for &quot; etc.
 $txt['permissions_only_one_option'] = 'Możesz wybrać tylko jedną akcję do modyfikacji zezwoleń';
 $txt['permissions_no_action'] = 'Nie wybrano żadnej akcji';
-$txt['permissions_deny_dangerous'] = 'Zamierzasz pozbawić grupę jednego lub kilku zezwoleń.\\nTo może być niebezpieczne i spowodować nieoczekiwane rezultaty jeśli nie upewniłeś się, że nikt nie jest \\"przypadkowo\\" w grupie albo grupach, których pozbawiasz zezwoleń.\\n\\nCzy na pewno chcesz kontynuować?';
+$txt['permissions_deny_dangerous'] = 'Zamierzasz pozbawić grupę jednego lub kilku zezwoleń.\\nTo może być niebezpieczne i spowodować nieoczekiwane rezultaty, jeśli nie upewniłeś się, że nikt nie jest \\"przypadkowo\\" w grupie albo grupach, których pozbawiasz zezwoleń.\\n\\nCzy na pewno chcesz kontynuować?';
 
 $txt['permissions_modify_group'] = 'Modyfikuj grupę';
 $txt['permissions_general'] = 'Zezwolenia ogólne';
 $txt['permissions_board'] = 'Ogólne zezwolenia działów';
 $txt['permissions_board_desc'] = '<strong>Uwaga</strong>: zmiana tych zezwoleń będzie dotyczyć wszystkich działów aktualnie przydzielonych do &quot;Standardowego&quot; profilu zezwoleń. Zaś na działy nie używające &quot;Standardowego&quot; profilu zezwoleń zmiany na tej stronie nie wpłyną.';
 $txt['permissions_commit'] = 'Zachowaj zmiany';
-$txt['permissions_on'] = 'w dziale';
+$txt['permissions_on'] = 'w profilu';
 $txt['permissions_local_for'] = 'Zezwolenia lokalne dla grupy';
 $txt['permissions_option_on'] = 'Z';
 $txt['permissions_option_off'] = 'N';
 $txt['permissions_option_deny'] = 'P';
-$txt['permissions_option_desc'] = 'Dla każdego zezwolenia możesz wybrać \'Zezwalaj\' (Z), \'Nie zezwalaj\' (N) lub <span style="color: red;">\'Pozbaw\' (P)</span>.<br /><br />Pamiętaj, że jeśli pozbawisz grupę jakiegoś zezwolenia, każdy z członków - moderatorzy również nie będzie mógł wykonać danej czynności.<br />Dlatego też powinieneś używać zezwoleń bardzo ostrożnie, tylko kiedy jest to <strong>konieczne</strong>. Opcja \'Nie zezwalaj\' zabrania, chyba że użytkownik posiada dane zezwolenie w inny sposób (np. jest moderatorem).';
-$txt['permissions_change_view'] = 'Zmień Widok';
+$txt['permissions_option_desc'] = 'Dla każdego zezwolenia możesz wybrać \'Zezwalaj\' (Z), \'Nie zezwalaj\' (N) lub <span style="color: red;">\'Pozbaw\' (P)</span>.<br /><br />Pamiętaj, że jeśli pozbawisz grupę jakiegoś zezwolenia, każdy z członków - moderatorzy również nie będą mogli wykonać danej czynności.<br />Dlatego też powinieneś używać zezwoleń bardzo ostrożnie, tylko kiedy jest to <strong>konieczne</strong>. Opcja \'Nie zezwalaj\' zabrania, chyba że użytkownik posiada dane zezwolenie w inny sposób (np. jest moderatorem).';
+$txt['permissions_change_view'] = 'Zmień widok';
 $txt['permissions_view_simple'] = 'Prosty';
 $txt['permissions_view_classic'] = 'Klasyczny';
 
@@ -327,10 +327,10 @@ $txt['permission_disable_postgroups_warning'] = 'Wyłączenie tego ustawienia b�
 
 $txt['permissions_post_moderation_desc'] = 'Na tej stronie z łatwością możesz zmienić, które grupy mają moderowane wiadomości dla poszczególnych profili zezwoleń.';
 $txt['permissions_post_moderation_deny_note'] = 'Zauważ, że od kiedy masz aktywne uprawnienia zaawansowane, nie możesz zastosować &quot;odmowy&quot; uprawnień z tej strony. Edytuj uprawnienia bezpośrednio, jeśli chcesz zastosować odmowę uprawnień.';
-$txt['permissions_post_moderation_select'] = 'Wybierz Profil';
-$txt['permissions_post_moderation_new_topics'] = 'Nowe Wątki';
-$txt['permissions_post_moderation_replies_own'] = 'Własne Odpowiedzi';
-$txt['permissions_post_moderation_replies_any'] = 'Wszystkie Odpowiedzi';
+$txt['permissions_post_moderation_select'] = 'Wybierz profil';
+$txt['permissions_post_moderation_new_topics'] = 'Nowe wątki';
+$txt['permissions_post_moderation_replies_own'] = 'Własne odpowiedzi';
+$txt['permissions_post_moderation_replies_any'] = 'Wszystkie odpowiedzi';
 $txt['permissions_post_moderation_attachments'] = 'Załączniki';
 $txt['permissions_post_moderation_legend'] = 'Legenda';
 $txt['permissions_post_moderation_allow'] = 'Może tworzyć';
@@ -338,8 +338,8 @@ $txt['permissions_post_moderation_moderate'] = 'Może tworzyć, ale wymaga zatwi
 $txt['permissions_post_moderation_disallow'] = 'Nie może tworzyć';
 $txt['permissions_post_moderation_group'] = 'Grupa';
 
-$txt['auto_approve_topics'] = 'Wysyłać nowe wątki, bez zatwierdzania';
-$txt['auto_approve_replies'] = 'Wysyłać odpowiedzi w wątkach, bez zatwierdzania';
-$txt['auto_approve_attachments'] = 'Wysyłać załączniki, bez zatwierdzania';
+$txt['auto_approve_topics'] = 'Wysyłanie nowych wątków bez zatwierdzania';
+$txt['auto_approve_replies'] = 'Wysyłanie odpowiedzi w wątkach bez zatwierdzania';
+$txt['auto_approve_attachments'] = 'Wysyłanie załączników bez zatwierdzania';
 
 ?>
